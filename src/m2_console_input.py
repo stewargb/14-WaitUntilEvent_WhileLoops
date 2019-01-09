@@ -3,8 +3,8 @@ This module demonstrates lets you practice INPUT from the CONSOLE.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Grant Stewart.
+"""  # done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -30,8 +30,11 @@ def double_a_float():
          Enter a number: -3.14
          -6.28
     """
+    x = float(input('enter a float:'))
+    dub = x * 2
+    print(dub)
     # -------------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # Done: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 
@@ -61,8 +64,12 @@ def print_an_integer_many_times():
          10
          10
     """
+    x = int(input('enter an input:'))
+    dub = x * 2
+    for k in range(x):
+        print(dub)
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # Done: 3. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 
@@ -80,8 +87,11 @@ def print_an_integer_many_times_on_one_row():
          Enter an integer: 5
          1010101010
     """
+    x = int(input('enter an input:'))
+    dub = x * 2
+    print(str(dub) * x)
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # Done: 4. Implement and test this function.
     #   The testing code is already written for you (above).
     #
     # HINT: One way to print on a SINGLE line is to build up a string
@@ -120,8 +130,17 @@ def input_it_all():
          Peace & Love.
          Peace & Love.
     """
+    x = float(input('enter a float:'))
+    y = int(input('enter an int:'))
+    z = input('enter a string:')
+    rot = x**(1/2)
+    for _ in range(y):
+        print(rot)
+    for _ in range(y):
+        print(z)
+
     # -------------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # Done: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
 
